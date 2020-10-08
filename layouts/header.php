@@ -6,8 +6,9 @@
     </label>
     <a href="../index.php"><img src="../assets/images/header/logo-cucurzy.png" alt="logo" ></a>
     <ul>
-        <li><a " href="../pages/products.php">PRODUCTS</a></li>
+        <li><a href="../pages/products.php">PRODUCTS</a></li>
         <li><a id="nav-athletes" href="../pages/athletes.php">ATHLETES</a></li>
         <li><a id="nav-events" href="../pages/events.php">EVENTS</a></li>
+        <li><a id="nav-events" href="../pages/shop.php">SHOP</a></li>
     </ul>
 </nav>

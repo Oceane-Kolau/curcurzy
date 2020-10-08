@@ -96,24 +96,7 @@
             <button class="btn-info-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
         </div>
     </div>
-    <div class="flex-container3-home">
-        <div class="box-info-home">
-            <p class="info1-home">2000<br></p>
-            <p class="info2-home">Events<br> organized</p>
-        </div>
-        <div class="box-info-home">
-            <p class="info1-home">900<br></p>
-            <p class="info2-home">Athletes & Artists <br>sponsored</p>
-        </div>
-        <div class="box-info-home">
-            <p class="info1-home">+ 7<br></p>
-            <p class="info2-home">Recognized <br>benefits</p>
-        </div>
-        <div class="box-info-home">
-            <p class="info1-home">200<br></p>
-            <p class="info2-home">Scientists <br>approve</p>
-        </div>
-    </div>
+
     <?php include 'layouts/footer.php'; ?>
     <script src="script.js"></script>
 </body>
