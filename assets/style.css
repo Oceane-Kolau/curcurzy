@@ -1,0 +1,14 @@
+:root {
+    --beige : #E8E8E2;
+    --grey-back : #F8F8F8;
+    --green : #214D17;
+    --orange : #F97F34;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+  }
