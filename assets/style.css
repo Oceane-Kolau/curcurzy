@@ -13,6 +13,7 @@ body {
     letter-spacing: 0.2px;
 }
 
+
 /* HEADER */
 
 nav {
@@ -23,6 +24,7 @@ nav {
     list-style: none;
     text-decoration: none;
 }
+
 nav img {
     width: 150px;
     position: absolute;
@@ -36,11 +38,13 @@ nav ul {
     margin-right: 200px;
     margin-top: 50px;
 }
+
 nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 15px;
 }
+
 nav ul li a {
     text-decoration: none;
     background-color: rgb(255, 255, 255);
@@ -64,10 +68,12 @@ nav ul li a::before {
     transform-origin: right;
     transition: transform .4s linear;
 }
+
 nav ul li a:hover:before {
     transform: scaleX(1);
     transform-origin: left;
 }
+
 label #btn,
 label #cancel {
     color: black;
@@ -79,9 +85,11 @@ label #cancel {
     display: none;
     margin-top: 20px;
 }
+
 #check {
     display: none;
 }
+
 
 /* PARTIE 1 : Banner */
 
@@ -99,6 +107,10 @@ label #cancel {
 .title1-home h1 {
     font-size: 45px;
     font-weight: bold;
+}
+
+.img-home {
+    width: 60%;
 }
 
 .img-home img {
@@ -225,19 +237,21 @@ label #cancel {
 
 /*THANKS*/
 
-.container-message{
+.container-message {
     background-color: var(--beige);
     display: flex;
     justify-content: center;
-    
 }
-.italic-message{
-    font-style:italic;
+
+.italic-message {
+    font-style: italic;
 }
-.orange-emphasis{
-    color:var(--orange);
+
+.orange-emphasis {
+    color: var(--orange);
 }
-.container-text-thanks{
+
+.container-text-thanks {
     display: flex;
     /*background-color: var(--beige);*/
     background-color: white;
@@ -245,52 +259,61 @@ label #cancel {
     justify-content: center;
     align-items: center;
     width: 80%;
-    border-top:1rem double var(--green);
-    border-left:1rem double var(--green);
-    border-right:1rem double var(--green);
+    border-top: 1rem double var(--green);
+    border-left: 1rem double var(--green);
+    border-right: 1rem double var(--green);
 }
-.container-text-thanks a{
-    display:flex;
+
+.container-text-thanks a {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:1%;
+    padding-top: 1%;
 }
-.title-big-thanks{
+
+.title-big-thanks {
     font-size: 80px;
     letter-spacing: 3px;
     /*background-color: lightyellow;*/
     text-transform: uppercase;
 }
+
+
 /*.content-text{
 }*/
-.sent-gif-thanks{
+
+.sent-gif-thanks {
     width: 80px;
 }
-.container-team{
+
+.container-team {
     display: flex;
     justify-content: center;
 }
-.container-team-gif{
+
+.container-team-gif {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-left: 1rem double var(--green);
-    border-right:1rem double var(--green);
-    border-bottom:1rem double var(--green);
-    width:80%;
-    padding-top:10px;
-    padding-bottom:10px;
+    border-right: 1rem double var(--green);
+    border-bottom: 1rem double var(--green);
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.container-team-gif p{
+
+.container-team-gif p {
     /*background-color: mediumpurple;*/
     display: flex;
     align-items: flex-start;
-    font-size:20px;
+    font-size: 20px;
 }
-.container-team-gif img{
-    width:50%;
+
+.container-team-gif img {
+    width: 50%;
     border-radius: 8px;
 }
 
@@ -311,24 +334,21 @@ label #cancel {
     align-items: center;
     width: 100%;
     height: auto;
+    padding-bottom: 50px;
 }
 
-.trust {
-    width: 200px;
-    height: auto;
+#trust-h4 {
+    font-size: 30px;
+    text-align: center;
 }
 
-.trust h4 {
-    width: 100%;
-    height: auto;
+.partner_logo img {
+    width: 15%;
+    display: flex;
 }
 
-.michelin {
-    width: 20%;
-    height: auto;
-}
 
-.michelin_logo {
+/*.michelin_logo {
     width: 100%;
     height: auto;
 }
@@ -363,6 +383,8 @@ label #cancel {
     width: 100%;
     height: auto;
 }
+
+*/
 
 .footer {
     background: var(--green);
@@ -531,7 +553,6 @@ textarea {
 }
 
 
-
 /*MEDIA QUERIES*/
 
 @media (max-width: 1118px) {
@@ -539,19 +560,20 @@ textarea {
         left: 8%;
     }
 }
+
 @media (max-width: 944px) {
-    nav img{
+    nav img {
         left: 6%;
         top: 20px;
         width: 130px;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 17px;
     }
 }
 
 @media (max-width: 745px) {
-    label #btn{
+    label #btn {
         display: block;
     }
     ul {
@@ -570,23 +592,22 @@ textarea {
         line-height: auto;
         flex-wrap: wrap;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 20px;
     }
-    #check:checked ~ ul {
+    #check:checked~ul {
         background-color: rgb(255, 255, 255);
         left: 0;
-        z-index:100;
+        z-index: 100;
         height: auto;
     }
-    #check:checked ~ label #btn {
+    #check:checked~label #btn {
         display: none;
     }
-    #check:checked ~ label #cancel {
+    #check:checked~label #cancel {
         display: block;
     }
 }
-
 
 @media only screen and (max-width: 768px) {
     .flex-container-home {
@@ -610,11 +631,10 @@ textarea {
         padding-top: 10%;
     }
     .img-home img {
-        width: 100%;
+        width: 355px;
         margin-top: -63px;
     }
     .description-home {
-        width: 100%;
         margin-left: 2%;
         margin-top: 30px;
     }
@@ -676,7 +696,8 @@ textarea {
         font-size: 35px;
         letter-spacing: 10px;
         text-align: left;
-        margin-left: 4%;
+        margin-left: 7%;
+        margin-top: -215px;
     }
     .img-home img {
         width: 70%;
@@ -687,8 +708,10 @@ textarea {
         text-align: left;
         margin-right: 4%;
         order: 2;
-        margin-left: 4%;
+        margin-left: 8%;
         width: 30%;
+        margin-top: -370px;
+        padding-bottom: 100px;
     }
     /* PARTIE 2 : Cards */
     .title2-home {
@@ -1560,55 +1583,55 @@ textarea {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: px solid red;
         margin: 10px 0 0 0;
     }
     .copyright {
         width: auto;
     }
-    .youtube_logo {
-        border: px soild red;
-        margin: 0 5px 0 0;
-    }
     .contact_partner h4 {
         padding: 0 0 20px 0;
     }
     .fb_logo {
-        border: px solid red;
         margin: 0 0 0 5px;
     }
-    .partner_logo {
+    .partner_logo img {
+        width: 100px;
+        display: flex;
+        margin: 20px;
+    }
+    .flex-partner-logo {
+        margin-bottom: 2%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    /*.partner_logo {
         display: flex;
         flex-wrap: wrap;
-    }
+    }*/
     .trust h4 {
+        font-size: 35px;
         text-align: center;
-        border: px solid red;
     }
-    .michelin {
+    /*.michelin {
         width: 100%;
         height: auto;
     }
     .michelin_logo {
-        border: px solid red;
         width: 100%;
         height: auto;
     }
     .ministre {
-        border: px solid red;
         width: 100px;
         height: auto;
     }
     .tinder {
-        border: px solid red;
         width: 100px;
         height: 100px;
     }
     .greenweez {
-        border: px solid red;
         width: 100px;
         height: 100px;
-    }
+    }*/
 }
 
 @media screen and (max-width: 880px) {
@@ -2105,4 +2128,3 @@ textarea {
         padding-top: 20px;
     }
 }
-
