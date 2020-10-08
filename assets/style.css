@@ -569,7 +569,6 @@ textarea {
         margin: 50px 0;
         line-height: auto;
         flex-wrap: wrap;
-        z-index:;
     }
     nav ul li a{
         font-size: 20px;
@@ -577,6 +576,7 @@ textarea {
     #check:checked ~ ul {
         background-color: rgb(255, 255, 255);
         left: 0;
+        z-index:100;
         height: auto;
     }
     #check:checked ~ label #btn {
