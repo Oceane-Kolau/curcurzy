@@ -13,6 +13,75 @@ body {
     letter-spacing: 0.2px;
 }
 
+/* HEADER */
+
+nav {
+    height: 150px;
+    background: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+nav img {
+    width: 150px;
+    position: absolute;
+    top: 17px;
+    left: 10%;
+}
+
+nav ul {
+    text-decoration: none;
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    position: relative;
+    color: black;
+    font-size: 24px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+nav ul li a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: var(--orange);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+nav ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+label #btn,
+label #cancel {
+    color: black;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    margin-top: 20px;
+}
+#check {
+    display: none;
+}
 
 /* PARTIE 1 : Banner */
 
@@ -242,13 +311,11 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    border: px solid red;
 }
 
 .trust {
     width: 200px;
     height: auto;
-    border: px solid red;
 }
 
 .trust h4 {
@@ -268,7 +335,6 @@ body {
 
 .greenweez {
     order: 2;
-    border: px solid red;
     width: 10%;
     height: auto;
 }
@@ -296,65 +362,58 @@ body {
 .tinder_logo {
     width: 100%;
     height: auto;
-    border: px solid red;
 }
 
 .footer {
-    background: rgb(77, 143, 77);
+    background: var(--green);
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: auto;
     height: auto;
-    border: px solid red;
 }
 
 .social_network {
     width: 30%;
     height: auto;
-    border: px solid red;
 }
 
 .fb_logo {
     width: 40px;
     height: auto;
-    border: px solid red;
 }
 
 .insta_logo {
     width: 40px;
     height: auto;
-    border: px solid red;
 }
 
 .youtube_logo {
     width: 60px;
     height: 30px;
     margin: 0 0 5px 0;
-    border: px solid red;
 }
 
 .contact_partner {
-    border: px solid red;
     width: auto;
     height: auto;
 }
 
 .contact_partner h4 {
-    border: px solid red;
-    color: black;
+    color: var(--beige);
     width: auto;
-    height: auto;
     text-align: center;
 }
 
 .contact_partner h4 a {
-    color: black;
+    color: var(--beige);
+    text-decoration: none;
 }
 
 .copyright {
     width: 30%;
     height: auto;
+    color: var(--beige);
 }
 
 .copyright h6 {
@@ -362,7 +421,6 @@ body {
     text-align: right;
     width: auto;
     height: auto;
-    border: px solid red;
 }
 
 
@@ -387,7 +445,7 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("assets-vf/Products/pattypan-pic.jpg") no-repeat center;
+    background: url("../assets/images/products/pattypan-pic.jpg") no-repeat center;
     background-size: cover;
     filter: blur(50px);
     z-index: -1;
@@ -405,7 +463,7 @@ body {
 }
 
 .left {
-    background: url("assets-vf/Products/pattypan-family.jpg") no-repeat center;
+    background: url("../assets/images/products/pattypan-family.jpg") no-repeat center;
     background-size: cover;
     height: 100%;
 }
@@ -440,6 +498,7 @@ body {
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: .3s;
+    width: 90%;
 }
 
 .field:hover {
@@ -472,7 +531,62 @@ textarea {
 }
 
 
+
 /*MEDIA QUERIES*/
+
+@media (max-width: 1118px) {
+    nav img {
+        left: 8%;
+    }
+}
+@media (max-width: 944px) {
+    nav img{
+        left: 6%;
+        top: 20px;
+        width: 130px;
+    }
+    nav ul li a{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 745px) {
+    label #btn{
+        display: block;
+    }
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: transparent;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: flex;
+        margin: 50px 0;
+        line-height: auto;
+        flex-wrap: wrap;
+        z-index:;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul {
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        height: auto;
+    }
+    #check:checked ~ label #btn {
+        display: none;
+    }
+    #check:checked ~ label #cancel {
+        display: block;
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
     .flex-container-home {
@@ -1353,7 +1467,6 @@ textarea {
     }
     .content-athletes {
         background-color: var(--beige);
-        padding-top: 100px;
         /* Modifier ici lorsque la navbar sera ajoutée*/
     }
     /* HEADER ATHLETES */
@@ -1992,3 +2105,4 @@ textarea {
         padding-top: 20px;
     }
 }
+
