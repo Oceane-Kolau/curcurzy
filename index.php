@@ -14,7 +14,7 @@
                 <h1 class="title1-home">PATTYPAN <br>MASTER</h1>
             </div>
             <div class="img-home">
-                <img src='pichome/pattypan-cucurzy.png' alt="pattypan cucurzy" />
+                <img src='assets/images/home/pattypan-cucurzy.png' alt="pattypan cucurzy" />
             </div>
             <div class="description-home">
                 <h2>Welcome in the enchanted world of Cucurbits...</h2>
@@ -34,7 +34,7 @@
             <div class="flex-box-home">
                 <div class="flex-box-home-img">
                     <a href='products.php'>
-                        <img src='assets-vf/Products/cucumber.jpg' alt="biologic cucumber powered by cucurzy" />
+                        <img src='assets/images/products/cucumber.jpg' alt="biologic cucumber powered by cucurzy" />
                     </a>
                 </div>
                 <div class="box-text-home">
@@ -49,7 +49,7 @@
             <div class="flex-box-home">
                 <div class="flex-box-home-img">
                     <a href='athletes.php'>
-                        <img src='assets-vf/Athletes/antonia-lakrazy.jpg' alt="woman athletes sponsored by cucurzy" />
+                        <img src='assets/images/athletes/antonia-lakrazy.jpg' alt="woman athletes sponsored by cucurzy" />
                     </a>
                 </div>
                 <div class="box-text-home">
@@ -63,7 +63,7 @@
             <div class="flex-box-home">
                 <div class="flex-box-home-img">
                     <a href='athletes.php'>
-                        <img src='assets-vf/Events pics/pumpkin-carving-factory.jpg' alt="events with pumpkin sponsored by cucurzy" />
+                        <img src='assets/images/products/pumpkin.jpg' alt="events with pumpkin sponsored by cucurzy" />
                     </a>
                 </div>
                 <div class="box-text-home">
@@ -78,7 +78,7 @@
     </section>
     <div class="info-container-home">
         <div class="illustration-home">
-            <img src='pichome/info-chart.png' alt="cucurzy benefits information" />
+            <img src='assets/images/home/info-chart.png' alt="cucurzy benefits information" />
         </div>
         <div>
             <h2>LAST TRENDS <br></h2>

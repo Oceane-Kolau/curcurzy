@@ -4,5 +4,5 @@
     <a href="../pages/products.php">products</a>
     <a href="../pages/events.php">event</a>
     <a href="../pages/contact.php">contact</a>
-    <a href="../pages/thanks.php">thx</a>
+    <!--<a href="../pages/thanks.php">thx</a>-->
 </nav>
