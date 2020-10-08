@@ -15,7 +15,7 @@ $panierInfos = getCartInfos();
 <head>
     <?php include '../layouts/head.php' 
     ?>
-    <title>Products</title>
+    <title>Cart</title>
 </head>
 
 <body>

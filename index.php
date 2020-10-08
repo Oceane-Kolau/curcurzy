@@ -78,22 +78,12 @@
     </section>
     <div class="info-container-home">
         <div class="illustration-home">
+            <div>
             <img src='assets/images/home/info-chart.png' alt="cucurzy benefits information" />
-        </div>
-        <div>
-            <h2>LAST TRENDS <br></h2>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';"># THIS MONTH</button>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
+            </div>
+            <div>
+            <img src='assets/images/home/grid-pic.jpg' alt="cucurzy benefits information" />
+            </div>
         </div>
     </div>
 
