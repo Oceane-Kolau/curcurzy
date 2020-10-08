@@ -7,3 +7,4 @@
     <meta name="keywords" content="pattypan, cucurbit, super power, event">
     <meta name="author" content="Elvina, Océane, Ali, Kamel, Laurent and Yann">
     <link rel="stylesheet" href="../assets/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>

@@ -1,8 +1,13 @@
 <nav>
-    <a href="../index.php">Home</a>
-    <a href="../pages/athletes.php">ath</a>
-    <a href="../pages/products.php">products</a>
-    <a href="../pages/events.php">event</a>
-    <a href="../pages/contact.php">contact</a>
-    <a href="../pages/thanks.php">thx</a>
+<input type="checkbox" id="check">
+    <label for="check">
+        <i class ="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <a href="../index.php"><img src="../assets/images/header/logo-cucurzy.png" alt="logo" ></a>
+    <ul>
+        <li><a " href="../pages/products.php">PRODUCTS</a></li>
+        <li><a id="nav-athletes" href="../pages/athletes.php">ATHLETES</a></li>
+        <li><a id="nav-events" href="../pages/events.php">EVENTS</a></li>
+    </ul>
 </nav>
