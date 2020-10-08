@@ -4,7 +4,7 @@
     <?php include '../layouts/head.php' ?>
    <title>Events</title>
 </head>
-<body>
+<body id="events-page">
   <?php include '../layouts/header.php'; ?>
   <div class="content">
         <section class="pagePresentation">

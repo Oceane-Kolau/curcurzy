@@ -4,7 +4,7 @@
 	<?php include '../layouts/head.php' ?>
    <title>Athletes</title>
 </head>
-<body>
+<body id="ath-page">
     <?php include '../layouts/header.php'; ?>
     <div class="content-athletes">
         <div class="container-header-athletes"></div>   
