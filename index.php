@@ -22,7 +22,7 @@
                     You will discover the craziest events involving fierce competition.<br>
                     But first and foremost, you will learn about the wonderful benefits of cucurbits, represented at the forefront by our succulent Pattypan Master.<br>
                     <span>Please enjoy the ride!</span></p>
-                <button class="btn-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
+                <button class="btn-home" onclick="window.location.href='pages/products.php';">DISCOVER OUR PRODUCTS</button>
             </div>
         </div>
     </section>
@@ -43,7 +43,7 @@
                         Benefits<br>
                         Helps relaxation & mind focus</p>
                     <h4 class="title4-home">Products</h4>
-                    <p> <a class="box-text-paragraph-home" href="products.php">Learn more ></a></p>
+                    <p> <a class="box-text-paragraph-home" href="pages/products.php">Learn more ></a></p>
                 </div>
             </div>
             <div class="flex-box-home">
@@ -56,7 +56,7 @@
                     <h3 class="title3-home">ANTONIA LAKRAZY</h3>
                     <p>Antonia inherited the AK-47 mastery from her father, a former ruthless mercenary leading « The Pumpkin Kanibals », one of the most violent militia the Soviet Union has known.<br>
                         <h4 class="title4-home">Athletes</h4>
-                        <a class="box-text-paragraph-home" href="athletes.php">Learn more ></a>
+                        <a class="box-text-paragraph-home" href="pages/athletes.php">Learn more ></a>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                     <p>10 OCT 2020</p>
                     <p>An event open to creative minds and the most eccentric artists coming from all over the world, that wanna make a statement…through the Queen of Cucurbits!</p>
                     <h4 class="title4-home">Events</h4>
-                    <a class="box-text-paragraph-home" href="events.php">Learn more ></a>
+                    <a class="box-text-paragraph-home" href="pages/events.php">Learn more ></a>
                 </div>
             </div>
         </div>
