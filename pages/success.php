@@ -12,7 +12,7 @@
         </h2>
 
         <div class="flex-container-success">
-            <p>Votre commande est validée elle sera envoyé sous reservatoin de paiement à : <?php echo $_GET['email']; ?>
+            <p>Thank you <?php echo $_GET['name']; ?>. Your order has been placed.It will be shipped ASAP !
             </p>
             <div class="flex-container-content-success">
             <img class="illustration-success" src='../assets/images/home/grid-pic.jpg' alt="" />

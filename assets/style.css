@@ -545,6 +545,11 @@ textarea {
     color: white;
 }
 
+.btn-cart1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .btn-cart {
     line-height: 2.5;
     padding: 0 2%;
@@ -814,7 +819,10 @@ textarea {
         width: 20%;
     }
     .flex-container-content-success img {
-        width: 10px;
+        width: 50%;
+    }
+    .flex-container-success p {
+        text-align: center;
     }
 }
 

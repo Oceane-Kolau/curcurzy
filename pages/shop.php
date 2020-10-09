@@ -19,7 +19,9 @@ if(!empty($_GET)){
 
     <div class="header-shop">
         <div>
-            <button class="btn-cart1" href="cart.php" type="submit">CHECK YOUR BASKET</button>
+            <button class="btn-cart1" >
+            <a href="cart.php"  type="submit">CHECK YOUR BASKET</a>
+            </button>
         </div>
     </div>
     <section class="section-shop">
@@ -38,7 +40,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">PATTYPAN</h3>
                     <p>The cucurbit master</p>
                     <p>12€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                         <input class="name-d-none" type="text" name="product" value="pattypan">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
@@ -56,7 +58,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">PUMPKIN</h3>
                     <p>The orange power</p>
                     <p>9€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                         <input class="name-d-none" type="text" name="product" value="pumpkin">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
@@ -73,7 +75,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">WATERMELON</h3>
                     <p>Summer vibes</p>
                     <p>5€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                     <input class="name-d-none" type="text" name="product" value="watermelon">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
@@ -90,7 +92,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">BUTTERNUT</h3>
                     <p>Fall vibes</p>
                     <p>10€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                     <input class="name-d-none" type="text" name="product" value="butternut">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
@@ -107,7 +109,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">PICKLES</h3>
                     <p>The greens you need</p>
                     <p>3€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                     <input class="name-d-none" type="text" name="product" value="pickles">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
@@ -124,7 +126,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">MELON</h3>
                     <p>Round, fruity and tasty</p>
                     <p>2€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                     <input class="name-d-none" type="text" name="product" value="pattypan">
                     <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
@@ -141,7 +143,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">CUCUMBER</h3>
                     <p>Fresh green juice</p>
                     <p>6€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                         <input class="name-d-none" type="text" name="product" value="cucumber">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
@@ -158,7 +160,7 @@ if(!empty($_GET)){
                     <h3 class="title3-shop">SQUASH</h3>
                     <p>Yellow power</p>
                     <p>6€</p>
-                    <form action="cart.php">
+                    <form action="shop.php">
                         <input type="text" class="name-d-none" name="product" value="squash">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
