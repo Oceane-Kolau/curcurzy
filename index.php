@@ -78,12 +78,8 @@
     </section>
     <div class="info-container-home">
         <div class="illustration-home">
-            <div>
-            <img src='assets/images/home/info-chart.png' alt="cucurzy benefits information" />
-            </div>
-            <div>
-            <img src='assets/images/home/grid-pic.jpg' alt="cucurzy benefits information" />
-            </div>
+            <img class="illustration1-home" src='assets/images/home/info-chart.png' alt="cucurzy benefits information" />
+            <img class="illustration2-home" src='assets/images/home/grid-pic.jpg' alt="" />
         </div>
     </div>
 
