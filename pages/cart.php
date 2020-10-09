@@ -20,12 +20,19 @@ $panierInfos = getCartInfos();
 
 <body>
     <?php include '../layouts/header.php'; ?>
+    
+    <div class="header-shop">
+        <div>
+            <button class="btn-cart1" href="shop.php" type="submit">BACK TO SHOP</button>
+        </div>
+    </div>
+
     <section class="section2-home">
         <h2 class="title2-home">Cart
             <hr>
         </h2>
-        <table>
-            <thead>
+        <table class="orderTable">
+            <thead class="thead">
                 <tr>
                     <th colspan="2">#</th>
                     <th colspan="2">Product</th>
@@ -44,8 +51,8 @@ $panierInfos = getCartInfos();
                     <th scope="row">#</th>
                     <td><?php echo $panierInfos[$i]['product'] ?></td>
                     <td><?php echo $panierInfos[$i]['qty'] ?></td>
-                    <td>270 $</td>
-                    <td><?php echo $panierInfos[$i]['qty'] * 27.5 ?>$</td>
+                    <td>12 €</td>
+                    <td><?php echo $panierInfos[$i]['qty'] * 27.5 ?>€</td>
                     <td>
                         <form method="GET">
                             <input type="text" class="d-none" name="product" value="<?php echo $panierInfos[$i]['product'] ?>">
@@ -57,12 +64,14 @@ $panierInfos = getCartInfos();
             <?php } ?>
             </tbody>
         </table>
-        Total : <?php echo $total ."$"; ?>
+        <div class="total">
+            Total : <?php echo $total ."€"; ?>
+        </div>
 
-        <div>
+        <div class="payBtn">
             <form action="success.php">
-                <input type="email" name="email" id="email">
-                <button type="submit">Pay</button>
+                <input type="text" name="name" id="name" placeholder="name">
+                <button class="submitBtn" type="submit">Pay</button>
             </form>
         </div>
 
