@@ -47,17 +47,17 @@ $panierInfos = getCartInfos();
             <?php
             $total = 0;
             for ($i = 0; $i < count($panierInfos); $i++) {
-                $total =+ $panierInfos[$i]['qty'] * 27.5;
+                $total =+ $panierInfos[$i]['qty'] * 12;
             ?>
                 <tr>
                     <th scope="row">#</th>
                     <td><?php echo $panierInfos[$i]['product'] ?></td>
                     <td><?php echo $panierInfos[$i]['qty'] ?></td>
                     <td>12 €</td>
-                    <td><?php echo $panierInfos[$i]['qty'] * 27.5 ?>€</td>
+                    <td><?php echo $panierInfos[$i]['qty'] * 12 ?>€</td>
                     <td>
                         <form method="GET">
-                            <input type="text" class="d-none" name="product" value="<?php echo $panierInfos[$i]['product'] ?>">
+                            <input type="text" class="name-d-none" name="product" value="<?php echo $panierInfos[$i]['product'] ?>">
                             <button type="submit" class="btn btn-danger"><i class="fas fa-trash"></i></a>
                         </form>
                     </td>
