@@ -23,7 +23,9 @@ $panierInfos = getCartInfos();
     
     <div class="header-shop">
         <div>
-            <button class="btn-cart1" href="shop.php" type="submit">BACK TO SHOP</button>
+        <button class="btn-cart1" >
+            <a href="shop.php"  type="submit">BACK TO SHOP</a>
+            </button>
         </div>
     </div>
 
