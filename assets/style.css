@@ -13,6 +13,7 @@ body {
     letter-spacing: 0.2px;
 }
 
+
 /* HEADER */
 
 nav {
@@ -23,6 +24,7 @@ nav {
     list-style: none;
     text-decoration: none;
 }
+
 nav img {
     width: 150px;
     position: absolute;
@@ -36,20 +38,22 @@ nav ul {
     margin-right: 200px;
     margin-top: 50px;
 }
+
 nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 15px;
 }
+
 nav ul li a {
     text-decoration: none;
     background-color: rgb(255, 255, 255);
-    font-weight: bolder;
     position: relative;
     color: black;
     font-size: 24px;
     padding: 5px 0;
     text-transform: uppercase;
+    padding-right: 18px;
 }
 
 nav ul li a::before {
@@ -64,10 +68,12 @@ nav ul li a::before {
     transform-origin: right;
     transition: transform .4s linear;
 }
+
 nav ul li a:hover:before {
     transform: scaleX(1);
     transform-origin: left;
 }
+
 label #btn,
 label #cancel {
     color: black;
@@ -79,9 +85,11 @@ label #cancel {
     display: none;
     margin-top: 20px;
 }
+
 #check {
     display: none;
 }
+
 
 /* PARTIE 1 : Banner */
 
@@ -93,12 +101,16 @@ label #cancel {
 }
 
 .title1-home {
-    margin: 4%;
+    margin: 2%;
 }
 
 .title1-home h1 {
     font-size: 45px;
     font-weight: bold;
+}
+
+.img-home {
+    width: 60%;
 }
 
 .img-home img {
@@ -124,6 +136,7 @@ label #cancel {
     background-color: var(--orange);
     border: 1%;
     border-style: solid;
+    color: white;
 }
 
 
@@ -171,16 +184,13 @@ label #cancel {
 .info-container-home {
     display: flex;
     background-color: white;
-    margin: 3%;
+    flex-direction: row;
+    align-items: center;
 }
 
 .illustration-home img {
+    width: 46%;
     margin-top: 4%;
-}
-
-.illustration2-home {
-    display: flex;
-    justify-content: space-around;
 }
 
 .btn-info-home {
@@ -225,19 +235,21 @@ label #cancel {
 
 /*THANKS*/
 
-.container-message{
+.container-message {
     background-color: var(--beige);
     display: flex;
     justify-content: center;
-    
 }
-.italic-message{
-    font-style:italic;
+
+.italic-message {
+    font-style: italic;
 }
-.orange-emphasis{
-    color:var(--orange);
+
+.orange-emphasis {
+    color: var(--orange);
 }
-.container-text-thanks{
+
+.container-text-thanks {
     display: flex;
     /*background-color: var(--beige);*/
     background-color: white;
@@ -245,52 +257,59 @@ label #cancel {
     justify-content: center;
     align-items: center;
     width: 80%;
-    border-top:1rem double var(--green);
-    border-left:1rem double var(--green);
-    border-right:1rem double var(--green);
+    border-top: 1rem double var(--green);
+    border-left: 1rem double var(--green);
+    border-right: 1rem double var(--green);
 }
-.container-text-thanks a{
-    display:flex;
+
+.container-text-thanks a {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:1%;
+    padding-top: 1%;
 }
-.title-big-thanks{
+
+.title-big-thanks {
     font-size: 80px;
     letter-spacing: 3px;
-    /*background-color: lightyellow;*/
     text-transform: uppercase;
 }
+
+
 /*.content-text{
 }*/
-.sent-gif-thanks{
+
+.sent-gif-thanks {
     width: 80px;
 }
-.container-team{
+
+.container-team {
     display: flex;
     justify-content: center;
 }
-.container-team-gif{
+
+.container-team-gif {
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-left: 1rem double var(--green);
-    border-right:1rem double var(--green);
-    border-bottom:1rem double var(--green);
-    width:80%;
-    padding-top:10px;
-    padding-bottom:10px;
+    border-right: 1rem double var(--green);
+    border-bottom: 1rem double var(--green);
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.container-team-gif p{
-    /*background-color: mediumpurple;*/
+
+.container-team-gif p {
     display: flex;
     align-items: flex-start;
-    font-size:20px;
+    font-size: 20px;
 }
-.container-team-gif img{
-    width:50%;
+
+.container-team-gif img {
+    width: 50%;
     border-radius: 8px;
 }
 
@@ -310,58 +329,18 @@ label #cancel {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 70%;
 }
 
-.trust {
-    width: 200px;
-    height: auto;
+#trust-h4 {
+    font-size: 30px;
+    text-align: center;
 }
 
-.trust h4 {
-    width: 100%;
-    height: auto;
-}
-
-.michelin {
-    width: 20%;
-    height: auto;
-}
-
-.michelin_logo {
-    width: 100%;
-    height: auto;
-}
-
-.greenweez {
-    order: 2;
+.partner_logo img {
     width: 10%;
-    height: auto;
-}
-
-.greenweez_logo {
-    width: 100%;
-    height: auto;
-}
-
-.ministre {
-    width: 5%;
-    height: auto;
-}
-
-.ministre_logo {
-    width: 100%;
-    height: auto;
-}
-
-.tinder {
-    width: 10%;
-    height: auto;
-}
-
-.tinder_logo {
-    width: 100%;
-    height: auto;
+    display: flex;
+    padding-bottom: 1%;
 }
 
 .footer {
@@ -531,6 +510,77 @@ textarea {
 }
 
 
+/*SHOP*/
+
+.flex-box-shop img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.header-shop {
+    background-color: var(--beige);
+    height: 75px;
+}
+
+.name-d-none {
+    display: none;
+}
+
+.btn-cart1 {
+    line-height: 2.5;
+    padding: 0 2%;
+    font-size: 15px;
+    border-color: var(--orange);
+    background-color: transparent;
+    margin-right: 37%;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+
+.btn-cart1:hover {
+    background-color: var(--orange);
+    border: 1%;
+    border-style: solid;
+    color: white;
+}
+
+.btn-cart1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-cart {
+    line-height: 2.5;
+    padding: 0 2%;
+    font-size: 15px;
+    border-color: var(--orange);
+    background-color: transparent;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.btn-cart:hover {
+    background-color: var(--orange);
+    border: 1%;
+    border-style: solid;
+    color: white;
+}
+
+
+/*SUCCESS*/
+
+.flex-container-content-success {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flex-container-success p {
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
 
 /*MEDIA QUERIES*/
 
@@ -539,19 +589,20 @@ textarea {
         left: 8%;
     }
 }
+
 @media (max-width: 944px) {
-    nav img{
+    nav img {
         left: 6%;
         top: 20px;
         width: 130px;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 17px;
     }
 }
 
 @media (max-width: 745px) {
-    label #btn{
+    label #btn {
         display: block;
     }
     ul {
@@ -570,23 +621,22 @@ textarea {
         line-height: auto;
         flex-wrap: wrap;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 20px;
     }
-    #check:checked ~ ul {
+    #check:checked~ul {
         background-color: rgb(255, 255, 255);
         left: 0;
-        z-index:100;
+        z-index: 100;
         height: auto;
     }
-    #check:checked ~ label #btn {
+    #check:checked~label #btn {
         display: none;
     }
-    #check:checked ~ label #cancel {
+    #check:checked~label #cancel {
         display: block;
     }
 }
-
 
 @media only screen and (max-width: 768px) {
     .flex-container-home {
@@ -610,11 +660,10 @@ textarea {
         padding-top: 10%;
     }
     .img-home img {
-        width: 100%;
+        width: 355px;
         margin-top: -63px;
     }
     .description-home {
-        width: 100%;
         margin-left: 2%;
         margin-top: 30px;
     }
@@ -661,6 +710,25 @@ textarea {
     .illustration-home img {
         width: 100%;
     }
+    /*SHOP*/
+    .section-shop {
+        flex-direction: column;
+    }
+    .flex-container1-shop {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .flex-box-shop {
+        background-color: var(--grey-back);
+        box-shadow: 0px 0px 3px 4px lightgrey;
+        margin: 20px;
+    }
+    .box-text-shop {
+        background-color: var(--grey-back);
+        padding: 2%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -676,7 +744,8 @@ textarea {
         font-size: 35px;
         letter-spacing: 10px;
         text-align: left;
-        margin-left: 4%;
+        margin-left: 7%;
+        margin-top: -215px;
     }
     .img-home img {
         width: 70%;
@@ -687,8 +756,10 @@ textarea {
         text-align: left;
         margin-right: 4%;
         order: 2;
-        margin-left: 4%;
+        margin-left: 8%;
         width: 30%;
+        margin-top: -370px;
+        padding-bottom: 100px;
     }
     /* PARTIE 2 : Cards */
     .title2-home {
@@ -716,10 +787,42 @@ textarea {
     .box-text-paragraph-home a {
         text-align: right;
     }
-    .illustration-home img {
-        width: 100%;
-        margin-left: 7%;
-        margin-top: 8%;
+    /* PARTIE Infographie img*/
+    .info-container-home {
+        align-items: center;
+        margin: 15px 15px 0 15px;
+    }
+    .illustration-home .illustration1-home {
+        width: 42%;
+    }
+    .illustration-home .illustration2-home {
+        width: 50%;
+        margin-left: 70px;
+    }
+    /*SHOP*/
+    .flex-container1-shop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-box-shop {
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--grey-back);
+        margin: 30px;
+        box-shadow: 0px 0px 3px 4px lightgrey;
+    }
+    .box-text-shop {
+        padding-left: 10px;
+        padding-bottom: 4%;
+    }
+    .flex-box-shop {
+        width: 20%;
+    }
+    .flex-container-content-success img {
+        width: 50%;
+    }
+    .flex-container-success p {
+        text-align: center;
     }
 }
 
@@ -1389,7 +1492,7 @@ textarea {
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        margin-top: 100px;
+        /*margin-top: 100px; test*/
         /* Modifier ici lorsque la navbar sera ajoutée*/
     }
     .title-header-athletes {
@@ -1560,54 +1663,24 @@ textarea {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: px solid red;
         margin: 10px 0 0 0;
     }
     .copyright {
         width: auto;
     }
-    .youtube_logo {
-        border: px soild red;
-        margin: 0 5px 0 0;
-    }
     .contact_partner h4 {
         padding: 0 0 20px 0;
     }
     .fb_logo {
-        border: px solid red;
         margin: 0 0 0 5px;
     }
-    .partner_logo {
+    .partner_logo img {
+        width: 90px;
         display: flex;
-        flex-wrap: wrap;
+        margin: 20px;
     }
-    .trust h4 {
-        text-align: center;
-        border: px solid red;
-    }
-    .michelin {
-        width: 100%;
-        height: auto;
-    }
-    .michelin_logo {
-        border: px solid red;
-        width: 100%;
-        height: auto;
-    }
-    .ministre {
-        border: px solid red;
-        width: 100px;
-        height: auto;
-    }
-    .tinder {
-        border: px solid red;
-        width: 100px;
-        height: 100px;
-    }
-    .greenweez {
-        border: px solid red;
-        width: 100px;
-        height: 100px;
+    #trust-h4 {
+        display: none;
     }
 }
 
@@ -2105,4 +2178,3 @@ textarea {
         padding-top: 20px;
     }
 }
-

@@ -1,20 +1,29 @@
+<div class="flex-container3-home">
+        <div class="box-info-home">
+            <p class="info1-home">2000<br></p>
+            <p class="info2-home">Events<br> organized</p>
+        </div>
+        <div class="box-info-home">
+            <p class="info1-home">900<br></p>
+            <p class="info2-home">Athletes & Artists <br>sponsored</p>
+        </div>
+        <div class="box-info-home">
+            <p class="info1-home">+ 7<br></p>
+            <p class="info2-home">Recognized <br>benefits</p>
+        </div>
+        <div class="box-info-home">
+            <p class="info1-home">200<br></p>
+            <p class="info2-home">Scientists <br>approve</p>
+        </div>
+ </div>
+
 <div id="footer_div">
-    <div class="partner_logo">
-        <div class="trust">
-            <h4>THEY TRUST US</h4>
-        </div>
-        <div class="michelin">
-            <img class="michelin_logo" src="../assets/icons/footer/michelin.svg" alt="michelin">
-        </div>
-        <div class="greenweez">
-            <img class="greenweez_logo" src="../assets/icons/footer/greenweez.png" alt="greenweez">
-        </div>
-        <div class="ministre">
-            <img class="ministre_logo" src="../assets/icons/footer/agriculture.svg" alt="badoo">
-        </div>
-        <div class="tinder">
-            <img class="tinder_logo" src="../assets/icons/footer/tinder.png" alt="tinder">
-        </div>
+    <div class="partner_logo">  
+    <h4 id="trust-h4">THEY TRUST US</h4>
+            <img src="../assets/icons/footer/greenweez.png" alt="greenweez">
+            <img src="../assets/icons/footer/agriculture.svg" alt="badoo">
+            <img src="../assets/icons/footer/tinder.png" alt="tinder">
+      
     </div>
     <div class="footer">
         <div class="social_network">
