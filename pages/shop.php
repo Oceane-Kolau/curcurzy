@@ -18,6 +18,9 @@ if(!empty($_GET)){
     <?php include '../layouts/header.php'; ?>
 
     <div class="header-shop">
+        <div>
+            <button class="btn-cart1" href="cart.php" type="submit">CHECK YOUR BASKET</button>
+        </div>
     </div>
     <section class="section-shop">
         <h2 class="title2-home">SHOP THE CUCURZY
@@ -27,16 +30,16 @@ if(!empty($_GET)){
         <div class="flex-container1-shop">
             <div class="flex-box-shop">
                 <div class="flex-box-shop-img">
-                    <a href='athletes.php'>
-                        <img src='../assets/images/products/pattypan-pic.jpg' alt="woman athletes sponsored by cucurzy" />
+                    <a href='products.php'>
+                        <img src='../assets/images/products/pattypan-pic.jpg' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">PATTYPAN</h3>
                     <p>The cucurbit master</p>
+                    <p>12€</p>
                     <form action="cart.php">
                         <input class="name-d-none" type="text" name="product" value="pattypan">
-                        <input class="price-shop" type="text" name="price" value="100€">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
@@ -45,16 +48,16 @@ if(!empty($_GET)){
 
             <div class="flex-box-shop">
                 <div class="flex-box-home-img">
-                    <a href='athletes.php'>
-                        <img src='../assets/images/products/pumpkin.jpg' alt="woman athletes sponsored by cucurzy" />
+                    <a href='products.php'>
+                        <img src='../assets/images/products/pumpkin.jpg' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">PUMPKIN</h3>
                     <p>The orange power</p>
-                    <form>
+                    <p>9€</p>
+                    <form action="cart.php">
                         <input class="name-d-none" type="text" name="product" value="pumpkin">
-                        <input class="price-shop" type="text" name="price" value="100€">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
@@ -62,16 +65,16 @@ if(!empty($_GET)){
 
             <div class="flex-box-shop">
                 <div class="flex-box-shop-img">
-                    <a href='athletes.php'>
-                        <img src='../assets/images/products/watermelon.jpg.jpeg' alt="events with pumpkin sponsored by cucurzy" />
+                    <a href='products.php'>
+                        <img src='../assets/images/products/watermelon.jpg.jpeg' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">WATERMELON</h3>
-                    <p>Fall vibes</p>
-                    <form>
+                    <p>Summer vibes</p>
+                    <p>5€</p>
+                    <form action="cart.php">
                     <input class="name-d-none" type="text" name="product" value="watermelon">
-                        <input class="price-shop" type="text" name="price" value="6€">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
@@ -79,16 +82,16 @@ if(!empty($_GET)){
 
             <div class="flex-box-shop">
                 <div class="flex-box-shop-img">
-                    <a href='athletes.php'>
-                        <img src='../assets/images/products/butternut.jpg' alt="events with pumpkin sponsored by cucurzy" />
+                    <a href='products.php'>
+                        <img src='../assets/images/products/butternut.jpg' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">BUTTERNUT</h3>
                     <p>Fall vibes</p>
-                    <form>
+                    <p>10€</p>
+                    <form action="cart.php">
                     <input class="name-d-none" type="text" name="product" value="butternut">
-                        <input class="price-shop" type="text" name="price" value="100€">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
@@ -96,16 +99,16 @@ if(!empty($_GET)){
 
             <div class="flex-box-shop">
                 <div class="flex-box-shop-img">
-                    <a href='athletes.php'>
-                        <img src='../assets/images/products/pickles.jpg' alt="events with pumpkin sponsored by cucurzy" />
+                    <a href='products.php'>
+                        <img src='../assets/images/products/pickles.jpg' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">PICKLES</h3>
-                    <p>Fall vibes</p>
-                    <form>
-                    <input class="name-d-none" type="text" name="product" value="picles">
-                        <input class="price-shop" type="text" name="price" value="100€">
+                    <p>The greens you need</p>
+                    <p>3€</p>
+                    <form action="cart.php">
+                    <input class="name-d-none" type="text" name="product" value="pickles">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
@@ -114,30 +117,32 @@ if(!empty($_GET)){
             <div class="flex-box-shop">
                 <div class="flex-box-shop-img">
                     <a href='athletes.php'>
-                        <img src='../assets/images/products/melon.jpg' alt="events with pumpkin sponsored by cucurzy" />
+                        <img src='../assets/images/products/melon.jpg' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">MELON</h3>
-                    <p>Fall vibes</p>
-                    <form>
-                        
+                    <p>Round, fruity and tasty</p>
+                    <p>2€</p>
+                    <form action="cart.php">
+                    <input class="name-d-none" type="text" name="product" value="pattypan">
+                    <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
             </div>
 
             <div class="flex-box-shop">
                 <div class="flex-box-home-img">
-                    <a href='athletes.php'>
-                        <img src='../assets/images/products/cucumber.jpg' alt="woman athletes sponsored by cucurzy" />
+                    <a href='products.php'>
+                        <img src='../assets/images/products/cucumber.jpg' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">CUCUMBER</h3>
-                    <p>The orange power</p>
-                    <form>
-                        <input class="name-d-none" type="text" name="product" value="pattypan">
-                        <input class="price-shop" type="text" name="price" value="100€">
+                    <p>Fresh green juice</p>
+                    <p>6€</p>
+                    <form action="cart.php">
+                        <input class="name-d-none" type="text" name="product" value="cucumber">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
@@ -145,16 +150,16 @@ if(!empty($_GET)){
 
             <div class="flex-box-shop">
                 <div class="flex-box-home-img">
-                    <a href='athletes.php'>
-                        <img src='../assets/images/products/courge.png' alt="woman athletes sponsored by cucurzy" />
+                    <a href='products.php'>
+                        <img src='../assets/images/products/courge.png' alt="" />
                     </a>
                 </div>
                 <div class="box-text-shop">
                     <h3 class="title3-shop">SQUASH</h3>
-                    <p>The orange power</p>
-                    <form>
-                        <input type="text" name="product" value="pattypan">
-                        <input class="price-shop" type="text" name="price" value="100€">
+                    <p>Yellow power</p>
+                    <p>6€</p>
+                    <form action="cart.php">
+                        <input type="text" class="name-d-none" name="product" value="squash">
                         <button class="btn-cart"type="submit">Add to cart</button>
                     </form>
                 </div>
