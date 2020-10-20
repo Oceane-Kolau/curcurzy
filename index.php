@@ -39,7 +39,7 @@
                 </div>
                 <div class="box-text-home">
                     <h3 class="title3-home">CUCUMBER</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    <p>Fresh. Green. What else?<br>
                         Benefits<br>
                         Helps relaxation & mind focus</p>
                     <h4 class="title4-home">Products</h4>
