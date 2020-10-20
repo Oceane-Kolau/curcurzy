@@ -14,6 +14,83 @@ body {
 }
 
 
+/* HEADER */
+
+nav {
+    height: 150px;
+    background: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav img {
+    width: 150px;
+    position: absolute;
+    top: 17px;
+    left: 10%;
+}
+
+nav ul {
+    text-decoration: none;
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    color: black;
+    font-size: 24px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    padding-right: 18px;
+}
+
+nav ul li a::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: var(--orange);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+nav ul li a:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+label #btn,
+label #cancel {
+    color: black;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    margin-top: 20px;
+}
+
+#check {
+    display: none;
+}
+
+
 /* PARTIE 1 : Banner */
 
 .container2-home {
@@ -24,12 +101,16 @@ body {
 }
 
 .title1-home {
-    margin: 4%;
+    margin: 2%;
 }
 
 .title1-home h1 {
     font-size: 45px;
     font-weight: bold;
+}
+
+.img-home {
+    width: 60%;
 }
 
 .img-home img {
@@ -55,6 +136,7 @@ body {
     background-color: var(--orange);
     border: 1%;
     border-style: solid;
+    color: white;
 }
 
 
@@ -102,16 +184,13 @@ body {
 .info-container-home {
     display: flex;
     background-color: white;
-    margin: 3%;
+    flex-direction: row;
+    align-items: center;
 }
 
 .illustration-home img {
+    width: 46%;
     margin-top: 4%;
-}
-
-.illustration2-home {
-    display: flex;
-    justify-content: space-around;
 }
 
 .btn-info-home {
@@ -156,6 +235,33 @@ body {
 
 /*THANKS*/
 
+.container-message {
+    background-color: var(--beige);
+    display: flex;
+    justify-content: center;
+}
+
+.italic-message {
+    font-style: italic;
+}
+
+.orange-emphasis {
+    color: var(--orange);
+}
+
+.container-text-thanks {
+    display: flex;
+    /*background-color: var(--beige);*/
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border-top: 1rem double var(--green);
+    border-left: 1rem double var(--green);
+    border-right: 1rem double var(--green);
+}
+
 .container-text-thanks a {
     display: flex;
     justify-content: center;
@@ -169,16 +275,20 @@ body {
     text-transform: uppercase;
 }
 
+
+/*.content-text{
+}*/
+
 .sent-gif-thanks {
     width: 80px;
 }
 
-.container-team-thanks {
+.container-team {
     display: flex;
     justify-content: center;
 }
 
-.container-team-thanks-gif {
+.container-team-gif {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -192,13 +302,13 @@ body {
     padding-bottom: 10px;
 }
 
-.container-team--thanks-gif p {
+.container-team-gif p {
     display: flex;
     align-items: flex-start;
     font-size: 20px;
 }
 
-.container-team--thanks-gif img {
+.container-team-gif img {
     width: 50%;
     border-radius: 8px;
 }
@@ -219,120 +329,70 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: auto;
-    border: px solid red;
+    height: 70%;
 }
 
-.trust {
-    width: 200px;
-    height: auto;
-    border: px solid red;
+#trust-h4 {
+    font-size: 30px;
+    text-align: center;
 }
 
-.trust h4 {
-    width: 100%;
-    height: auto;
-}
-
-.michelin {
-    width: 20%;
-    height: auto;
-}
-
-.michelin_logo {
-    width: 100%;
-    height: auto;
-}
-
-.greenweez {
-    order: 2;
-    border: px solid red;
+.partner_logo img {
     width: 10%;
-    height: auto;
-}
-
-.greenweez_logo {
-    width: 100%;
-    height: auto;
-}
-
-.ministre {
-    width: 5%;
-    height: auto;
-}
-
-.ministre_logo {
-    width: 100%;
-    height: auto;
-}
-
-.tinder {
-    width: 10%;
-    height: auto;
-}
-
-.tinder_logo {
-    width: 100%;
-    height: auto;
-    border: px solid red;
+    display: flex;
+    padding-bottom: 1%;
 }
 
 .footer {
-    background: rgb(77, 143, 77);
+    background: var(--green);
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: auto;
     height: auto;
-    border: px solid red;
 }
 
 .social_network {
     width: 30%;
     height: auto;
-    border: px solid red;
 }
 
 .fb_logo {
     width: 40px;
     height: auto;
-    border: px solid red;
 }
 
 .insta_logo {
     width: 40px;
     height: auto;
-    border: px solid red;
 }
 
 .youtube_logo {
     width: 60px;
     height: 30px;
     margin: 0 0 5px 0;
-    border: px solid red;
 }
 
 .contact_partner {
-    border: px solid red;
     width: auto;
     height: auto;
 }
 
 .contact_partner h4 {
-    border: px solid red;
-    color: black;
+    color: var(--beige);
     width: auto;
-    height: auto;
     text-align: center;
 }
 
 .contact_partner h4 a {
-    color: black;
+    color: var(--beige);
+    text-decoration: none;
 }
 
 .copyright {
     width: 30%;
     height: auto;
+    color: var(--beige);
 }
 
 .copyright h6 {
@@ -340,7 +400,6 @@ body {
     text-align: right;
     width: auto;
     height: auto;
-    border: px solid red;
 }
 
 
@@ -365,7 +424,7 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("assets-vf/Products/pattypan-pic.jpg") no-repeat center;
+    background: url("../assets/images/products/pattypan-pic.jpg") no-repeat center;
     background-size: cover;
     filter: blur(50px);
     z-index: -1;
@@ -383,7 +442,7 @@ body {
 }
 
 .left {
-    background: url("assets-vf/Products/pattypan-family.jpg") no-repeat center;
+    background: url("../assets/images/products/pattypan-family.jpg") no-repeat center;
     background-size: cover;
     height: 100%;
 }
@@ -418,6 +477,7 @@ body {
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: .3s;
+    width: 90%;
 }
 
 .field:hover {
@@ -450,7 +510,133 @@ textarea {
 }
 
 
+/*SHOP*/
+
+.flex-box-shop img {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.header-shop {
+    background-color: var(--beige);
+    height: 75px;
+}
+
+.name-d-none {
+    display: none;
+}
+
+.btn-cart1 {
+    line-height: 2.5;
+    padding: 0 2%;
+    font-size: 15px;
+    border-color: var(--orange);
+    background-color: transparent;
+    margin-right: 37%;
+    margin-left: 37%;
+    margin-top: 2%;
+}
+
+.btn-cart1:hover {
+    background-color: var(--orange);
+    border: 1%;
+    border-style: solid;
+    color: white;
+}
+
+.btn-cart1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn-cart {
+    line-height: 2.5;
+    padding: 0 2%;
+    font-size: 15px;
+    border-color: var(--orange);
+    background-color: transparent;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.btn-cart:hover {
+    background-color: var(--orange);
+    border: 1%;
+    border-style: solid;
+    color: white;
+}
+
+
+/*SUCCESS*/
+
+.flex-container-content-success {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.flex-container-success p {
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+
 /*MEDIA QUERIES*/
+
+@media (max-width: 1118px) {
+    nav img {
+        left: 8%;
+    }
+}
+
+@media (max-width: 944px) {
+    nav img {
+        left: 6%;
+        top: 20px;
+        width: 130px;
+    }
+    nav ul li a {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 745px) {
+    label #btn {
+        display: block;
+    }
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: transparent;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: flex;
+        margin: 50px 0;
+        line-height: auto;
+        flex-wrap: wrap;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #check:checked~ul {
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        z-index: 100;
+        height: auto;
+    }
+    #check:checked~label #btn {
+        display: none;
+    }
+    #check:checked~label #cancel {
+        display: block;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .flex-container-home {
@@ -474,11 +660,10 @@ textarea {
         padding-top: 10%;
     }
     .img-home img {
-        width: 100%;
+        width: 355px;
         margin-top: -63px;
     }
     .description-home {
-        width: 100%;
         margin-left: 2%;
         margin-top: 30px;
     }
@@ -525,6 +710,25 @@ textarea {
     .illustration-home img {
         width: 100%;
     }
+    /*SHOP*/
+    .section-shop {
+        flex-direction: column;
+    }
+    .flex-container1-shop {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    .flex-box-shop {
+        background-color: var(--grey-back);
+        box-shadow: 0px 0px 3px 4px lightgrey;
+        margin: 20px;
+    }
+    .box-text-shop {
+        background-color: var(--grey-back);
+        padding: 2%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -540,7 +744,8 @@ textarea {
         font-size: 35px;
         letter-spacing: 10px;
         text-align: left;
-        margin-left: 4%;
+        margin-left: 7%;
+        margin-top: -215px;
     }
     .img-home img {
         width: 70%;
@@ -551,8 +756,10 @@ textarea {
         text-align: left;
         margin-right: 4%;
         order: 2;
-        margin-left: 4%;
+        margin-left: 8%;
         width: 30%;
+        margin-top: -370px;
+        padding-bottom: 100px;
     }
     /* PARTIE 2 : Cards */
     .title2-home {
@@ -562,6 +769,42 @@ textarea {
         padding-bottom: 1%;
         font-size: 40px;
     }
+
+    .orderTable {
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    }
+    
+    .total{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .payBtn {
+        text-align: center;
+    }
+
+    .submitBtn {
+        line-height: 2.5;
+        padding: 0 2%;
+        font-size: 15px;
+        border-color: var(--orange);
+        background-color: transparent;
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+    
+    .submitBtn:hover {
+        background-color: var(--orange);
+        border: 1%;
+        border-style: solid;
+        color: white;
+    }
+
     .flex-container2-home {
         display: flex;
         flex-direction: row;
@@ -580,10 +823,42 @@ textarea {
     .box-text-paragraph-home a {
         text-align: right;
     }
-    .illustration-home img {
-        width: 100%;
-        margin-left: 7%;
-        margin-top: 8%;
+    /* PARTIE Infographie img*/
+    .info-container-home {
+        align-items: center;
+        margin: 15px 15px 0 15px;
+    }
+    .illustration-home .illustration1-home {
+        width: 42%;
+    }
+    .illustration-home .illustration2-home {
+        width: 50%;
+        margin-left: 70px;
+    }
+    /*SHOP*/
+    .flex-container1-shop {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-box-shop {
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--grey-back);
+        margin: 30px;
+        box-shadow: 0px 0px 3px 4px lightgrey;
+    }
+    .box-text-shop {
+        padding-left: 10px;
+        padding-bottom: 4%;
+    }
+    .flex-box-shop {
+        width: 20%;
+    }
+    .flex-container-content-success img {
+        width: 50%;
+    }
+    .flex-container-success p {
+        text-align: center;
     }
 }
 
@@ -1249,11 +1524,11 @@ textarea {
     }
     /* HEADER MOBILE */
     .container-header-athletes {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(/asset-vf/Athletes/bodybuilders.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(../assets/images/athletes/bodybuilders.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 40vh;
-        margin-top: 100px;
+        /*margin-top: 100px; test*/
         /* Modifier ici lorsque la navbar sera ajoutée*/
     }
     .title-header-athletes {
@@ -1331,12 +1606,11 @@ textarea {
     }
     .content-athletes {
         background-color: var(--beige);
-        padding-top: 100px;
         /* Modifier ici lorsque la navbar sera ajoutée*/
     }
     /* HEADER ATHLETES */
     .container-header-athletes {
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(/asset-vf/Athletes/bodybuilders.jpg);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(../assets/images/athletes/bodybuilders.jpg);
         background-repeat: repeat;
         background-size: cover;
         min-height: 100vh;
@@ -1425,54 +1699,24 @@ textarea {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: px solid red;
         margin: 10px 0 0 0;
     }
     .copyright {
         width: auto;
     }
-    .youtube_logo {
-        border: px soild red;
-        margin: 0 5px 0 0;
-    }
     .contact_partner h4 {
         padding: 0 0 20px 0;
     }
     .fb_logo {
-        border: px solid red;
         margin: 0 0 0 5px;
     }
-    .partner_logo {
+    .partner_logo img {
+        width: 90px;
         display: flex;
-        flex-wrap: wrap;
+        margin: 20px;
     }
-    .trust h4 {
-        text-align: center;
-        border: px solid red;
-    }
-    .michelin {
-        width: 100%;
-        height: auto;
-    }
-    .michelin_logo {
-        border: px solid red;
-        width: 100%;
-        height: auto;
-    }
-    .ministre {
-        border: px solid red;
-        width: 100px;
-        height: auto;
-    }
-    .tinder {
-        border: px solid red;
-        width: 100px;
-        height: 100px;
-    }
-    .greenweez {
-        border: px solid red;
-        width: 100px;
-        height: 100px;
+    #trust-h4 {
+        display: none;
     }
 }
 
@@ -1970,3 +2214,4 @@ textarea {
         padding-top: 20px;
     }
 }
+

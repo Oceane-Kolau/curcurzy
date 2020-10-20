@@ -14,7 +14,7 @@
                 <h1 class="title1-home">PATTYPAN <br>MASTER</h1>
             </div>
             <div class="img-home">
-                <img src='pichome/pattypan-cucurzy.png' alt="pattypan cucurzy" />
+                <img src='assets/images/home/pattypan-cucurzy.png' alt="pattypan cucurzy" />
             </div>
             <div class="description-home">
                 <h2>Welcome in the enchanted world of Cucurbits...</h2>
@@ -22,7 +22,7 @@
                     You will discover the craziest events involving fierce competition.<br>
                     But first and foremost, you will learn about the wonderful benefits of cucurbits, represented at the forefront by our succulent Pattypan Master.<br>
                     <span>Please enjoy the ride!</span></p>
-                <button class="btn-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
+                <button class="btn-home" onclick="window.location.href='pages/products.php';">DISCOVER OUR PRODUCTS</button>
             </div>
         </div>
     </section>
@@ -34,36 +34,36 @@
             <div class="flex-box-home">
                 <div class="flex-box-home-img">
                     <a href='products.php'>
-                        <img src='assets-vf/Products/cucumber.jpg' alt="biologic cucumber powered by cucurzy" />
+                        <img src='assets/images/products/cucumber.jpg' alt="biologic cucumber powered by cucurzy" />
                     </a>
                 </div>
                 <div class="box-text-home">
                     <h3 class="title3-home">CUCUMBER</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    <p>Fresh. Green. What else?<br>
                         Benefits<br>
                         Helps relaxation & mind focus</p>
                     <h4 class="title4-home">Products</h4>
-                    <p> <a class="box-text-paragraph-home" href="products.php">Learn more ></a></p>
+                    <p> <a class="box-text-paragraph-home" href="pages/products.php">Learn more ></a></p>
                 </div>
             </div>
             <div class="flex-box-home">
                 <div class="flex-box-home-img">
                     <a href='athletes.php'>
-                        <img src='assets-vf/Athletes/antonia-lakrazy.jpg' alt="woman athletes sponsored by cucurzy" />
+                        <img src='assets/images/athletes/antonia-lakrazy.jpg' alt="woman athletes sponsored by cucurzy" />
                     </a>
                 </div>
                 <div class="box-text-home">
                     <h3 class="title3-home">ANTONIA LAKRAZY</h3>
                     <p>Antonia inherited the AK-47 mastery from her father, a former ruthless mercenary leading « The Pumpkin Kanibals », one of the most violent militia the Soviet Union has known.<br>
                         <h4 class="title4-home">Athletes</h4>
-                        <a class="box-text-paragraph-home" href="athletes.php">Learn more ></a>
+                        <a class="box-text-paragraph-home" href="pages/athletes.php">Learn more ></a>
                 </div>
             </div>
 
             <div class="flex-box-home">
                 <div class="flex-box-home-img">
                     <a href='athletes.php'>
-                        <img src='assets-vf/Events pics/pumpkin-carving-factory.jpg' alt="events with pumpkin sponsored by cucurzy" />
+                        <img src='assets/images/products/pumpkin.jpg' alt="events with pumpkin sponsored by cucurzy" />
                     </a>
                 </div>
                 <div class="box-text-home">
@@ -71,49 +71,18 @@
                     <p>10 OCT 2020</p>
                     <p>An event open to creative minds and the most eccentric artists coming from all over the world, that wanna make a statement…through the Queen of Cucurbits!</p>
                     <h4 class="title4-home">Events</h4>
-                    <a class="box-text-paragraph-home" href="events.php">Learn more ></a>
+                    <a class="box-text-paragraph-home" href="pages/events.php">Learn more ></a>
                 </div>
             </div>
         </div>
     </section>
     <div class="info-container-home">
         <div class="illustration-home">
-            <img src='pichome/info-chart.png' alt="cucurzy benefits information" />
-        </div>
-        <div>
-            <h2>LAST TRENDS <br></h2>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';"># THIS MONTH</button>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
-        </div>
-        <div class="illustration2-home">
-            <button class="btn-info-home" onclick="window.location.href='products.php';">DISCOVER OUR PRODUCTS</button>
+            <img class="illustration1-home" src='assets/images/home/info-chart.png' alt="cucurzy benefits information" />
+            <img class="illustration2-home" src='assets/images/home/grid-pic.jpg' alt="" />
         </div>
     </div>
-    <div class="flex-container3-home">
-        <div class="box-info-home">
-            <p class="info1-home">2000<br></p>
-            <p class="info2-home">Events<br> organized</p>
-        </div>
-        <div class="box-info-home">
-            <p class="info1-home">900<br></p>
-            <p class="info2-home">Athletes & Artists <br>sponsored</p>
-        </div>
-        <div class="box-info-home">
-            <p class="info1-home">+ 7<br></p>
-            <p class="info2-home">Recognized <br>benefits</p>
-        </div>
-        <div class="box-info-home">
-            <p class="info1-home">200<br></p>
-            <p class="info2-home">Scientists <br>approve</p>
-        </div>
-    </div>
+
     <?php include 'layouts/footer.php'; ?>
     <script src="script.js"></script>
 </body>

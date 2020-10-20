@@ -11,10 +11,10 @@
             <div class="wrapper">
                 <div class="slider">
                   	<figure>
-						<img id="specialImg" src="assets/pumpkin-carving-factory.jpg" alt="Pumpkin carving factory" >
-						<img src="assets/pumpkin-carving-factory2.jpg" alt="Pumpkin carving factory" >
-						<img src="assets/pumpkin-carving-factory3.jpg" alt="Pumpkin carving factory" >
-						<img id="specialImg4" src="assets/pumpkin-carving-factory4.jpg" alt="Pumpkin carving factory" >
+						<img id="specialImg" src="../assets/images/events/pumpkin-carving-factory.jpg" alt="Pumpkin carving factory" >
+						<img src="../assets/images/events/pumpkin-carving-factory2.jpg" alt="Pumpkin carving factory" >
+						<img src="../assets/images/events/pumpkin-carving-factory3.jpg" alt="Pumpkin carving factory" >
+						<img id="specialImg4" src="../assets/images/events/pumpkin-carving-factory4.jpg" alt="Pumpkin carving factory" >
                   	</figure>
                 </div>
                 <div class="eventDatePlace">
@@ -30,7 +30,7 @@
         <section class="pageContent">
             <div class="event1">
                 <div>
-                    <img class="eventImg1" src="assets/watermelon-wheelbarrow-race.jpg" alt="Watermelon wheelbarrow race">
+                    <img class="eventImg1" src="../assets/images/events/watermelon-wheelbarrow-race.jpg" alt="Watermelon wheelbarrow race">
                 </div>
                 <div class="eventDescription1">
                     <h2>Watermelon Whellbarrow Race</h2>
@@ -40,7 +40,7 @@
             </div>
             <div class="event2">
                 <div>
-                    <img class="eventImg2" src="assets/butternut-shooting.jpg" alt="Butternut shooting">
+                    <img class="eventImg2" src="../assets/images/events/butternut-shooting.jpg" alt="Butternut shooting">
                 </div>
                 <div class="eventDescription2">
                     <h2>Butternut Shooting</h2>
@@ -50,7 +50,7 @@
             </div>
             <div class="event3">
                 <div>
-                    <img class="eventImg3" src="assets/cucumber-nap-contest.jpg" alt="Cucumber nap contest">
+                    <img class="eventImg3" src="../assets/images/events/cucumber-nap-contest.jpg" alt="Cucumber nap contest">
                 </div>
                 <div class="eventDescription3">
                     <h2>Cucumber Nap Contest</h2>
@@ -60,7 +60,7 @@
             </div>
             <div class="event4">
                 <div>
-                    <img class="eventImg4" src="assets/pattypan-master-squash-eating-contest.jpg" alt="Pattypan master squash eating contest">
+                    <img class="eventImg4" src="../assets/images/events/pattypan-master-squash-eating-contest.jpg" alt="Pattypan master squash eating contest">
                 </div>
                 <div class="eventDescription4">
                     <h2>Pattypan Master Squash Baby Eating Contest</h2>
@@ -70,7 +70,7 @@
             </div>
             <div class="event5">
                 <div>
-                    <img class="eventImg5" src="assets/pickle-pick-challenge.jpg" alt="Pickel Pick Challenge">
+                    <img class="eventImg5" src="../assets/images/events/pickle-pick-challenge.jpg" alt="Pickel Pick Challenge">
                 </div>
                 <div class="eventDescription5">
                     <h2>The Pick Challenge</h2>
